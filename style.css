@@ -2,6 +2,13 @@ body {
     background-color: yellow !important;
     text-align: center;
 }
+.image-top-right {
+    position: absolute; /* Positionnement absolu */
+    top: 0; /* Aligne en haut */
+    right: 0; /* Aligne à droite */
+    max-width: 100%; /* Gère la taille de l'image */
+    height: auto; /* Maintient le ratio de l'image */
+}
 
 h1 {
     color: red;
