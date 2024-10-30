@@ -34,4 +34,5 @@ body {
     font-family: 'Arial', sans-serif;
     position: absolute; 
     align-items: bottom;
+    align-self: auto;
 }
