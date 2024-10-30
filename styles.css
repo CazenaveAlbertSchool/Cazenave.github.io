@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    margin: 0; /* Supprime les marges par défaut */
+    height: 140vh; /* Prend toute la hauteur de la fenêtre */
+    background-image: url('img/Wanted.png'); /* Remplace par le chemin de ton image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'élément */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+    
+}
+
+
+
+.photo {
+    width: 500px; /* Prend toute la largeur de l'affiche */
+    height: auto;
+    border: 5px solid #8b4513; /* Bordure marron autour de l'image */
+    margin: 200px; /* Ajoute un peu de marge */
+}
+
+.wanted-poster {
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100%; /* Prend toute la hauteur du corps */
+    display: flex;
+    height: 100%;
+}
+
+.wanted-info {
+    margin-left: 200px;
+    color: black; 
+    font-size: 1000px;
+    font-family: 'Arial', sans-serif;
+    position: absolute; 
+    align-items: bottom;
+}
